@@ -12,21 +12,27 @@ body {
 .navbar-container {
   display: flex;
   align-items: center;
-  background-color: blanchedalmond;
   padding: 0 50px;
   height: 100%;
+  color: white;
 }
 .logo-container {
   flex: 1;
-  background-color: green;
+}
+.logo {
+  font-family: "Sen", sans-serif;
+  font-size: 30px;
+  color: #4dbf00;
 }
 .menu-container {
   flex: 6;
-  background-color: rgba(178, 134, 134, 0.247);
+}
+.menu-list {
+  display: flex;
+  list-style: none;
 }
 .profile-container {
   flex: 2;
-  background-color: red;
 }
 .sidebar {
   width: 50px;
