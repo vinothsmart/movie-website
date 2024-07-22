@@ -92,3 +92,38 @@ body {
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+.container {
+  background-color: #151515;
+  height: calc(100vh - 50px);
+  color: white;
+}
+
+.content-container {
+  margin-left: 50px;
+}
+
+.featured-content {
+  height: 50vh;
+  padding: 50px;
+}
+.featured-title {
+  width: 200px;
+}
+
+.featured-desc {
+  width: 500px;
+  color: lightgray;
+  margin: 30px 0;
+}
+
+.featured-button {
+  padding: 10px 20px;
+  background-color: #4dbf00;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
