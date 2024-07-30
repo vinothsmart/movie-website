@@ -133,11 +133,14 @@ body {
 }
 .movie-list-wrapper {
   position: relative;
+  overflow: hidden;
 }
 .movie-list {
   display: flex;
   height: 300px;
   align-items: center;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
 }
 .movie-list-item {
   margin-right: 30px;
