@@ -212,3 +212,33 @@ body {
   opacity: 0.5;
   cursor: pointer;
 }
+
+.container {
+  background-color: white;
+}
+
+.movie-list-title {
+  color: black;
+}
+
+.navbar-container {
+  background-color: white;
+  color: black;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.left-menu-icon {
+  color: black;
+}
+
+.toggle {
+  background-color: black;
+}
+
+.toggle-ball {
+  background-color: white;
+  transform: translateX(-20px);
+}
