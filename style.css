@@ -131,9 +131,20 @@ body {
 .movie-list-container {
   padding: 20px;
 }
-
+.movie-list {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+.movie-list-item {
+  margin-right: 30px;
+}
+.movie-list-item:hover .movie-list-item-img {
+  transform: scale(1.2);
+}
 .movie-list-item-img {
   width: 270px;
   height: 200px;
   object-fit: cover;
+  transition: all 1s ease-in-out;
 }
